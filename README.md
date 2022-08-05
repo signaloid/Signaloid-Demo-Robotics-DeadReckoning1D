@@ -27,30 +27,30 @@ This repository contains some dummy speed data, in `inputs/speed.csv` as an exam
 ## Output of the program
 Running the program with the default options produces the following result:
 
-<img width="800" alt="Example Output" src="resources/output.png">
+<img width="500" alt="Example Output" src="resources/output.png">
 
 Hovering over the position estimates will allow you to view the full uncertainty distribution for the estimate:
 
 At time t = 0.0:
 
-<img width="800" alt="Uncertainty for t = 0" src="resources/uncertainty_0_0.png">
+<img width="500" alt="Uncertainty for t = 0" src="resources/uncertainty_0_0.png">
 
 <br/>
 
 At time t = 0.1:
 
-<img width="800" alt="Example Output" src="resources/uncertainty_0_1.png">
+<img width="500" alt="Example Output" src="resources/uncertainty_0_1.png">
 
 <br/>
 
 At time t = 0.2:
 
-<img width="800" alt="Uncertainty for t = 0.2" src="resources/uncertainty_0_2.png">
+<img width="500" alt="Uncertainty for t = 0.2" src="resources/uncertainty_0_2.png">
 
 <br/>
 
 At time t = 1.0:
 
-<img width="800" alt="Uncertainty for t = 0.4" src="resources/uncertainty_1_0.png">
+<img width="500" alt="Uncertainty for t = 0.4" src="resources/uncertainty_1_0.png">
 
 You can see that as time progresses, the uncertainty in the position estimate increases, and begins to resemble a Gaussian distribution.
