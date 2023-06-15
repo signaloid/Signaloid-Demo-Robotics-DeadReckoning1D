@@ -23,7 +23,7 @@
  */
 
 #include "heapBuffer.h"
-#include "uncertain.h"
+#include "uxhw.h"
 #include "userInput.h"
 #include <stdio.h>
 #include <stdlib.h>
@@ -93,7 +93,7 @@ applyUncertainty(DoubleHeapBuffer * const buffer, const double uncertainty)
 		const double value = buffer->heapPointer[i];
 		const double lowerBound = value - uncertainty / 2.0;
 		const double upperBound = value + uncertainty / 2.0;
-		buffer->heapPointer[i] = libUncertainDoubleUniformDist(lowerBound, upperBound);
+		buffer->heapPointer[i] = UxHwDoubleUniformDist(lowerBound, upperBound);
 	}
 }
 
